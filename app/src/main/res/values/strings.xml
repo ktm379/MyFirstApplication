@@ -1,8 +1,4 @@
 <resources>
     <string name="app_name">OpenSource</string>
     <string name = "strBtn1">BUTTON1</string>
-    <string name = "strText1">Message1</string>
-    <string name = "strText2">Message2</string>
-    <string name = "strRadio1">Option1</string>
-    <string name = "strRadio2">option2</string>
 </resources>
