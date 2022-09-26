@@ -2,6 +2,8 @@ package com.example.myfirstapplication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     lateinit var button1 : Button
@@ -11,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         button1 = findViewById<Button>(R.id.button1)
 
         button1.setOnClickListener {
-            Toast.makeText(applicationContext, Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, "버튼을 눌렀어요 ㅎㅎㅎ", Toast.LENGTH_SHORT).show()
         }
     }
 }
